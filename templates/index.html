@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+</head> 
+
+<body>
+    <div class="background">
+    </div>
+</body>
+
+<link rel="stylesheet"  href="../static/style.css">
+
+
+<body> 
+<div class="container"> 
+    <div class="form"> 
+        <h2 class="heading"><u>DriveSmart: Enhancing Safety and Efficiency of Vehicles with Predictive Maintenance</u></h2> 
+
+    <form action="prediction" method="post">
+        <div class="input-box"> 
+            <label for="vehicle_model">Vehicle Model:</label> 
+            <select id="vehicle_model" name="vehicle_model" required> 
+                <option value="Select">Select</option> 
+                <option value="Bus">Bus</option> 
+                <option value="Car">Car</option> 
+                <option value="SUV">SUV</option> 
+                <option value="Truck">Truck</option> 
+                <option value="Van">Van</option>
+                <option value="Motorcycle">Motorcycle</option> 
+            </select> <br>
+
+        <label for="reported_issues">Enter Reported Issues:</label><br>
+        <input type="number" id="reported_issues" name="reported_issues"><br>      
+        
+        <label for="vehicle_age">Enter Vehicle Age:</label><br>
+        <input type="number" id="vehicle_age" name="vehicle_age"><br>
+
+        
+        <div class="input-box"> 
+            <label for="fuel_type">Fuel Type:</label> 
+            <select id="fuel_type" name="fuel_type" required> 
+                <option value="Select">Select</option> 
+                <option value="Petrol">Petrol</option> 
+                <option value="Diesel">Diesel</option> 
+                <option value="Electric">Electric</option> 
+            </select> <br>
+
+        <div class="input-box"> 
+            <label for="transmission_type">Transmission Type:</label> 
+            <select id="transmission_type" name="transmission_type" required> 
+                <option value="Select">Select</option> 
+                <option value="Automatic">Automatic</option> 
+                <option value="Manual">Manual</option>          
+            </select> <br>
+
+        <label for="fuel_effeciency">Fuel Effeciency:</label><br>
+        <input type="number" id="fuel_effeciency" name="fuel_effeciency"><br>    
+        
+
+        <div class="input-box"> 
+            <label for="maintenance_history">Maintenance History:</label> 
+            <select id="maintenance_history" name="maintenance_history" required> 
+                <option value="Select">Select</option> 
+                <option value="Good">Good</option> 
+                <option value="Average">Average</option>
+                <option value="Poor">Poor</option>          
+            </select> <br>
+        
+      
+                
+        <div class="input-box"> 
+                <label for="brake_condition">Brake Condition:</label> 
+                <select id="brake_condition" name="brake_condition" required> 
+                    <option value="Select">Select</option> 
+                    <option value="Good">Good</option> 
+                    <option value="New">New</option>
+                    <option value="Worn Out">Worn Out</option>          
+                </select> <br>
+
+        <div class="input-box"> 
+                <label for="battery_status">Battery Status:</label> 
+                <select id="battery_status" name="battery_status" required> 
+                    <option value="Select">Select</option> 
+                    <option value="Good">Good</option> 
+                    <option value="New">New</option>
+                    <option value="Weak">Weak</option>          
+                </select> <br>
+
+        <label for="days_since_last_service">Days since last service:</label><br>
+        <input type="number" id="days_since_last_service" name="days_since_last_service"><br> 
+                
+                            
+
+        <input type="submit" name="Submit">
+      </form>
+      
+</body>
+</html>
